@@ -5,6 +5,7 @@ body {
 header {
     background-color: white;
     padding: 20px;
+    
 
     min-width: 425px;
     max-width: 1280px;
@@ -15,6 +16,7 @@ header {
 main {
     background-color: white;
     padding: 20px;
+    
     
     min-width: 425px;
     max-width: 1280px;
@@ -39,4 +41,52 @@ ul {
 
 img {
     width: 100%;
+}
+
+@media (min-width: 425px),(max-width: 1280px) {
+    body {
+        background-color: gray;
+    }
+    
+    header {
+        background-color: white;
+        padding: 20px;
+        
+    
+        min-width: 425px;
+        max-width: 1280px;
+        margin: auto;
+    }
+    
+    
+    main {
+        background-color: white;
+        padding: 20px;
+        
+        
+        min-width: 425px;
+        max-width: 1280px;
+        margin: auto;
+    }
+    
+    footer {
+        background-color: white;
+        padding: 20px;
+        
+        min-width: 425px;
+        max-width: 1280px;
+        margin: auto;
+    }
+    
+    ul {
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
 }
