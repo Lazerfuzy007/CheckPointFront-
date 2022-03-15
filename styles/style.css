@@ -37,6 +37,12 @@ header  ul {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.233);
 }
 
+header a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
 header img {
     height: 100px;
 }
