@@ -8,85 +8,95 @@
     <link rel="stylesheet" href="styles/style.css">
     <title>Porto Alegre</title>
 </head>
+
 <body>
     <header>
         <div>
             <ul>
                 <img src="img/portoalegre.png" alt="">
                 <li class="home">
-                    <a href="/"></a>
-                    Home</li>
-                <li class="curiosidades">Curiosidades</li>
-                <li class="video">Video</li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li class="curiosidades">
+                    <a href="index.html">Curiosidades</a>
+                </li>
+
+                <li class="video">
+                    <a href="index.html">Video</a>
+
+                </li>
             </ul>
         </div>
     </header>
     <main>
-        <h1>Porto Alegre</h1>
-        <picture>
-            <source media="(max-width: 800px)">
-            <img class="cidade" src="img/IMG_03977.jpg" alt="cidade">
-        </picture>
+        <section class="panoram">
+            <h1>Porto Alegre</h1>
+            <picture>
+                <source media="(max-width: 800px)">
+                <img class="cidade" src="img/panoramica.jpg" alt="cidade">
+            </picture>
+        </section>
         <nav>
             <h2>Curiosidades da Cidade</h2>
-            <div>
+            <section>
 
-                <div>
-                    <div>
-                        <p>
-                            Quando você chegar a Porto Alegre e perguntar a um dos simpáticos
-                            moradores gaúchos sobre os lugares mais bonitos para ver o pôr do
-                            sol, ouvirá com certeza que o lugar ideal para ver esse show da
-                            natureza é às margens do Rio Guaíba.
-                        </p>
-                        <a href="encurtador.com.br/vACSV">Read More</a>
-                    </div>
+                <div class="card">
+                    <img src="./img/guaiba.png" alt="">
+                    <p>
+                        Quando você chegar a Porto Alegre e perguntar a um dos simpáticos
+                        moradores gaúchos sobre os lugares mais bonitos para ver o pôr do
+                        sol, ouvirá com certeza que o lugar ideal para ver esse show da
+                        natureza é às margens do Rio Guaíba.
+                    </p>
+                    <a href="https://www.temporadalivre.com/blog/6-curiosidades-de-porto-alegre-rs">Read More</a>
                 </div>
-                <div>
-                    <div>
-                        <p>
-                            O Mercado Público de Porto Alegre não só pode como deve ser
-                            incluído na sua lista de passeios na cidade. Pois reserva
-                            histórias incríveis e, além disso, é um ótimo centro para compras
-                            e manifestações culturais. Foi inaugurado no ano de 1869 já com a
-                            função de reunir o comércio da capital e também servir como
-                            abastecimento para toda a cidade.
-                        </p>
-                        <a href="encurtador.com.br/vACSV">Read More</a>
-                    </div>
+                <div class="card">
+                    <img src="./img/mercado_publico.png" alt="">
+                    <p>
+                        O Mercado Público de Porto Alegre não só pode como deve ser
+                        incluído na sua lista de passeios na cidade. Pois reserva
+                        histórias incríveis e, além disso, é um ótimo centro para compras
+                        e manifestações culturais. Foi inaugurado no ano de 1869 já com a
+                        função de reunir o comércio da capital e também servir como
+                        abastecimento para toda a cidade.
+                    </p>
+                    <a href="https://www.temporadalivre.com/blog/6-curiosidades-de-porto-alegre-rs">Read More</a>
                 </div>
-                <div>
-                    <div>
-                        <p>
-                            O Brique da Redenção é bem famoso em Porto Alegre, trata-se de uma 
-                            simpática feirinha de artesanato que acontece do lado do Parque
-                            Farroupilha - também chamado de Parque da Redenção - um dos mais
-                            importantes da cidade. É super ver famílias perambulando 
-                            pela feira e fazendo compras.
-                        </p>
-                        <a href="encurtador.com.br/vACSV">Read More</a>
-                    </div>
+                <div class="card">
+                    <img src="./img/redencao.png" alt="Arco da Redenção">
+                    <p>
+                        O memorial, também conhecido como Arco da
+                        Redenção, teve a sua história iniciada ainda em
+                        1946, quando o jornal Correio do Povo lançou a
+                        ideia de construção de um arco triunfal aos
+                        combatentes brasileiros da Segunda Guerra.
+                        Tanto o governo quanto a população aceitaram a
+                        proposta, e logo foi aberto um concurso público
+                        para a escolha do projeto que seria erguido no
+                        Parque Farroupilha.
+                    </p>
+                    <a href="https://jornaldomercado.com.br/monumento-ao-expedicionario-turismo-poa/">Read More</a>
                 </div>
+            </section>
+            <section class="Video">
                 <h2>Video</h2>
                 <video controls width="100%" autoplay muted>
-                    <source media="(max-eidth: 1280px)" 
-                    src="assets/Store TV Porto Alegre-se - Acampamento Farroupilha.mp4">
+                    <source media="(max-eidth: 1280px)"
+                        src="assets/Store TV Porto Alegre-se - Acampamento Farroupilha.mp4">
                 </video>
-            </div>
+            </section>
         </nav>
     </main>
     <footer>
         <h1>Rodapé</h1>
-        <button>
-            <a href="https://github.com/KennethOlusegun">
-                <img src="img/github.png" alt="git">
-            </a>
-        </button>
-        <button>
-            <a href="https://www.linkedin.com/in/kennethjesus/">
-                <img src="img/linkedin.png" alt="">
-            </a>
-        </button>
+        <a href="https://github.com/KennethOlusegun">
+            <img src="img/github.png" alt="git">
+        </a>
+
+        <a href="https://www.linkedin.com/in/kennethjesus/">
+            <img src="img/linkedin.png" alt="">
+        </a>
     </footer>
 </body>
 
