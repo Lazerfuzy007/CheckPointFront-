@@ -45,8 +45,8 @@ header  ul {
  header a {
     text-decoration: none;
     color: black;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 header img {
